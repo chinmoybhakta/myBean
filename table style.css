@@ -1,0 +1,9 @@
+body{background-color: aqua; font-family:verdana ;font-size:10 ;color: brown; text-align: center;}
+table{width:100%;line-height:2 ;border-collapse: collapse;}
+table th{background-color: chartreuse;border:1px solid blue}
+table td{text-align: center}
+table tr:nth-child(2n+1){background-color:rgb(109, 219, 214);}
+iframe{width:400px ; height:200px ;border: 1px solid white ;}
+ul{list-style:square; line-break:strict;}
+ol{list-style:lower-roman ;}
+dl{border: 2px solid red;}

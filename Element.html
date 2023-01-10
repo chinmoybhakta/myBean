@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block element And Inline element</title>
+    <link rel="stylesheet" href="Block style.css">
+</head>
+<body>
+    <h1>Block element And Inline element</h1>
+    <p><!--Block Element-->This is an inline span <span> Hello World </span><!--Inline Element-->element inside a paragraph.The SPAN element is an inline element, and will not start on a new line and only takes up as much width as necessary.
+    </p>
+    <div>This is nothing</div><!--Block Element-->
+    <div class="green">This is nothing</div>
+    <div>This is nothing</div>
+    <div class="green font">This is nothing</div><!--class attribute can contain many target-->
+    <div>This is nothing</div>
+    <div class="green">This is nothing</div>
+    <div>This is nothing</div>
+    <table><!--Block Element-->
+        <h1 id="style">Table</h1><!--Id attribute can contain one target-->
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>NUMBER</th>
+        </tr>
+        <tr>
+            <td>Suvo</td>
+            <td>23</td>
+            <td>01716852654</td>
+        </tr>
+        <tr>
+            <td>Nayon</td>
+            <td>18</td>
+            <td>01770551120</td>
+        </tr>
+        <tr>
+            <td>Sajib</td>
+            <td>22</td>
+            <td>01660221165</td>
+        </tr>
+        <tr>
+            <td>Ratul</td>
+            <td>25</td>
+            <td>01660000065</td>
+        </tr>
+    </table>
+    <form action="submit.php" target="_Blank">
+        <p>NAME</p>
+        <input type="text" placeholder="Enter your Name">
+        <p>EMAIL</p>
+        <input type="email" placeholder="Enter your Email">
+        <p>PASSWORD</p>
+        <input type="password" placeholder="Enter your Password">
+        <p>DATE of BIRTH</p> 
+        <input type="date">
+        <p>SEX</p>
+        <input type="radio" name="sex" id="male" value="male">MALE
+        <input type="radio" name="sex" id="female" value="female">FEMALE
+        <input type="radio" name="sex" id="others" value="others">OTHERS
+        <p>EDUCATION</p>
+<select>
+    <option value="m.sc">M.SC</option>
+    <option value="b.sc">B.SC</option>
+    <option value="h.s.c">H.S.C</option>
+    <option value="s.s.c">S.S.C</option>
+</select>
+
+    <p>HOBBY</p>
+    <input type="checkbox" name="hobby" value="music">MUSIC
+    <input type="checkbox" name="hobby" value="fishing">FISHING
+    <input type="checkbox" name="hobby" value="cricket">CRICKET
+    <input type="checkbox" name="hobby" id="drawing">DRAWING
+    <p>DESCRIPTION</p>
+    <textarea name="DESCRIPTION"  cols="20" rows="10" placeholder="Write something"></textarea>
+
+    <br><br>
+    <input type="submit" name="SUBMIT" value="submit">
+
+    </form>
+  <p><!--Block Element-->Hi World this is me.<a href="ABOUT.html">About Us</a><!--Inline Element-->Let check me out.</p>
+</body>
+    </html>
