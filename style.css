@@ -1,0 +1,5 @@
+body{background-color: cyan ;font: weight 20px;font-family:verdana;line-height:25px ;color: rgb(0, 0, 0);}
+a:link{font-size: larger; font-family:calibri ; color: maroon;}
+a:visited{font-size: smaller; color: rgb(158, 0, 250);font-family: arial black;}
+a:hover{text-decoration:none ;text-transform: lowercase;color: blueviolet;}
+img{width:100px ;border: 10px solid rosybrown ;} 

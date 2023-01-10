@@ -1,0 +1,9 @@
+body{border:10px solid black ;font-size:20px;font-family: Calibri;}
+table{border:5px solid blue;width:100%;border-collapse: collapse;}
+table td{text-align: center;}
+table tr:nth-child(2n+1){background-color: #ddd;}
+h1{text-align: center;}
+div{background-color: aqua;text-align: center;border: 1px solid white;}
+.green{background-color: blue;}
+.font{font-size:200%  ;font-family: comic;}
+#style{border: 50px solid red;color: brown; font-weight: 2000;}
